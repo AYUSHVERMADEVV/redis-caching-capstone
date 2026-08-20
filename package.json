@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node backend/server.js",
     "start": "node backend/server.js",
-    "build": "echo 'Build complete'",
+    "build": "mkdir -p public && cp -f index.html style.css script.js public/ 2>/dev/null || true",
     "lint": "node -c backend/server.js"
   },
   "dependencies": {

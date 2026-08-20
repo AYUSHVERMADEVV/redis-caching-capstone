@@ -73,4 +73,9 @@ async function startServer() {
     }
 }
 
-startServer();
+if (require.main === module || !process.env.VERCEL) {
+    startServer();
+}
+
+module.exports = app;
+
