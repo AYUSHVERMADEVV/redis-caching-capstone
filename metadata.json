@@ -1,0 +1,6 @@
+{
+  "name": "Redis Caching Property Management System",
+  "description": "Property data management system with in-memory Redis caching and database fallbacks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
